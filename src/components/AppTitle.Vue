@@ -5,10 +5,17 @@ export default {
 </script>
 
 <template>
-    <h1> HELLO WORLD</h1>
+    <header>
+        <h1> HELLO WORLD</h1>
+    </header>
 </template>
 
 <style>
+header {
+    text-align: center;
+
+}
+
 h1 {
     color: blue;
 }

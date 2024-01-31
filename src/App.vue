@@ -13,13 +13,9 @@ export default {
 </script>
 
 <template>
-  <header>
-    <AppTitle />
-  </header>
+  <AppTitle />
+  <AppHero />
 
-  <main>
-    <AppHero />
-  </main>
 
   <footer>
 
