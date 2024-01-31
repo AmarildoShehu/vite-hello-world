@@ -1,12 +1,13 @@
 <script>
-import AppTitle from './components/AppTitle.Vue'
-
+import AppTitle from './components/AppTitle.vue'
+import AppHero from './components/AppHero.vue'
 export default {
   name: 'MyApp',
   data: () => ({
   }),
   components: {
-    AppTitle
+    AppTitle,
+    AppHero
   },
 }
 </script>
@@ -17,8 +18,7 @@ export default {
   </header>
 
   <main>
-
-    <div class="jumbotron"></div>
+    <AppHero />
   </main>
 
   <footer>
