@@ -4,10 +4,9 @@ import AppTitle from './components/AppTitle.Vue'
 export default {
   name: 'MyApp',
   data: () => ({
-    name: 'Ciao',
   }),
   components: {
-    AppTitle: AppTitle
+    AppTitle
   },
 }
 </script>
