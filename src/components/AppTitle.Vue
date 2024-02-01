@@ -6,7 +6,7 @@ export default {
 
 <template>
     <header>
-        <h1> HELLO WORLD</h1>
+        <h1>La mia prima app con Vite!</h1>
     </header>
 </template>
 
